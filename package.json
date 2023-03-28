@@ -1,0 +1,25 @@
+{
+  "name": "jse_2023_arrays_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mceserani/JSE_2023_Arrays_Test.git"
+  },
+  "author": "Matteo Ceserani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mceserani/JSE_2023_Arrays_Test/issues"
+  },
+  "homepage": "https://github.com/mceserani/JSE_2023_Arrays_Test#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  }
+}
