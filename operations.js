@@ -43,6 +43,8 @@ function vectorAddition(a, b) {
   
   // Funzione che calcola e restituisce la media di un vettore
   function mean(a) {
+    if (a.length == 0)
+      return 0;
     let m = 0;
     for(let i = 0; i < a.length; i++){
       m += a[i];
@@ -52,6 +54,8 @@ function vectorAddition(a, b) {
   
   // Funzione che calcola e restituisce la mediana di un vettore
   function median(a) {
+    if (a.length == 0)
+      return 0;
     let m = a.sort();
     if (m.length % 2)
       return m[Math.floor(m.length/2)];

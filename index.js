@@ -1,5 +1,15 @@
 const inquirer = require('inquirer');
-  
+
+const { 
+    vectorAddition,
+    dotProduct,
+    norm,
+    crossProduct,
+    mean,
+    median,
+    minMax
+} = require('./operations.js');
+
 // Menù delle opzioni
 const menu = [
     {
